@@ -1,3 +1,6 @@
+register_models.py
+train_and_log_model.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -8,6 +11,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.claude/
 build/
 develop-eggs/
 dist/
