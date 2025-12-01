@@ -1,0 +1,14 @@
+artifact_uri: file:///Users/asvorobyev/Documents/%D0%90%D0%BB%D1%8C%D1%84%D0%B0-%D0%9B%D0%B8%D0%B7%D0%B8%D0%BD%D0%B3/Code/claude_project/Yandex%20Practicum/sprint%202/mle-mlflow/notebook/mlruns/309869022463878969/a9ea2f4eb0674729a49ffad5340b2e5f/artifacts
+end_time: 1763897142582
+entry_point_name: ''
+experiment_id: '309869022463878969'
+lifecycle_stage: active
+run_id: a9ea2f4eb0674729a49ffad5340b2e5f
+run_name: data_check
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1763897142556
+status: 3
+tags: []
+user_id: asvorobyev
