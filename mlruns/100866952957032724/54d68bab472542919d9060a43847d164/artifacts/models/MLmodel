@@ -1,0 +1,35 @@
+artifact_path: models
+flavors:
+  catboost:
+    catboost_version: 1.2.3
+    code: null
+    data: model.cb
+    model_type: CatBoostClassifier
+    save_format: cbm
+  python_function:
+    data: model.cb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.catboost
+    python_version: 3.10.12
+mlflow_version: 2.7.1
+model_uuid: 990674d164fd4a4ba1e3c34b19405c34
+run_id: 54d68bab472542919d9060a43847d164
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "type"}, {"type": "long", "name": "paperless_billing"},
+    {"type": "long", "name": "payment_method"}, {"type": "double", "name": "monthly_charges"},
+    {"type": "double", "name": "total_charges"}, {"type": "long", "name": "internet_service"},
+    {"type": "long", "name": "online_security"}, {"type": "long", "name": "online_backup"},
+    {"type": "long", "name": "device_protection"}, {"type": "long", "name": "tech_support"},
+    {"type": "long", "name": "streaming_tv"}, {"type": "long", "name": "streaming_movies"},
+    {"type": "long", "name": "gender"}, {"type": "long", "name": "senior_citizen"},
+    {"type": "long", "name": "partner"}, {"type": "long", "name": "dependents"}, {"type":
+    "long", "name": "multiple_lines"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2025-12-12 15:35:47.347386'

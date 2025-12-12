@@ -1,0 +1,13 @@
+aliases: []
+creation_timestamp: 1765553694839
+current_stage: None
+description: null
+last_updated_timestamp: 1765553694839
+name: catboost-churn-model
+run_id: 6c1d735d387e42d3a1f7605d937d497c
+run_link: null
+source: file:///home/mle-user/mle_projects/mle-mlflow/mlruns/100866952957032724/6c1d735d387e42d3a1f7605d937d497c/artifacts/models
+status: READY
+status_message: null
+user_id: null
+version: 1

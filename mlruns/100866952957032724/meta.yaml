@@ -1,0 +1,6 @@
+artifact_location: file:///home/mle-user/mle_projects/mle-mlflow/mlruns/100866952957032724
+creation_time: 1765553619465
+experiment_id: '100866952957032724'
+last_update_time: 1765553619465
+lifecycle_stage: active
+name: catboost_hyperparameter_tuning
