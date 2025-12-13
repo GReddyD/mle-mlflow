@@ -167,3 +167,7 @@ cython_debug/
 mlflow.db*
 mlflow_server.log
 *.bak
+
+# MLflow generated files
+catboost_info/
+mlruns/
