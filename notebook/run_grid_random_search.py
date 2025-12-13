@@ -269,7 +269,7 @@ with mlflow.start_run(run_name='model_grid_search', experiment_id=experiment_id)
     )
 
     # Логирование объекта GridSearchCV
-    mlflow.sklearn.log_model(grid_search, artifact_path='grid_search_cv')
+    mlflow.sklearn.log_model(grid_search, artifact_path="cv")
 
     # Логирование результатов GridSearch в виде артефакта
     cv_results_grid.to_csv("grid_search_results.csv", index=False)
@@ -405,7 +405,7 @@ with mlflow.start_run(run_name='model_random_search', experiment_id=experiment_i
     )
 
     # Логирование объекта RandomizedSearchCV
-    mlflow.sklearn.log_model(random_search, artifact_path='random_search_cv')
+    mlflow.sklearn.log_model(random_search, artifact_path="cv")
 
     # Логирование результатов RandomSearch в виде артефакта
     cv_results_random.to_csv("random_search_results.csv", index=False)

@@ -1,7 +1,0 @@
-artifact_location: file:///Users/asvorobyev/Documents/Альфа-Лизинг/Code/claude_project/Yandex
-  Practicum/sprint 2/mle-mlflow/notebook/mlruns/229506797356979362
-creation_time: 1765551207856
-experiment_id: '229506797356979362'
-last_update_time: 1765551207856
-lifecycle_stage: active
-name: catboost_hyperparameter_tuning
